@@ -310,13 +310,13 @@ section .button button:hover {
 }
 
 
-.fab,
+.media-icons .fab,
 .far {
     color: var(--primary-color);
 
 }
 
-.fab:hover{
+.media-icons .fab:hover{
     color: #2EC866;
 }
 
