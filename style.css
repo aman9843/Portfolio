@@ -141,7 +141,7 @@ nav.sticky .menu-btn {
 .home {
     height: 100vh;
     width: 100%;
-    background: url("images/pexels-lumn-316466.jpg") no-repeat;
+    background: url("images/cloud_sky_white_background_hd_white_background-1366x768.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -354,7 +354,7 @@ section .button button:hover {
 
 .education .box-container .box span {
     font-size: 1.3rem;
-    background:var(--primary-color);
+    background: var(--primary-color);
     color: #fff;
     border-radius: 5rem;
     padding: .5rem 2.5rem;
@@ -362,10 +362,11 @@ section .button button:hover {
 
 .education .box-container .box h3 {
     font-size: 2rem;
-    color: var(--black-color) ;
+    color: var(--black-color);
     padding-top: 1.5rem;
 }
-.education .box-container .box h6{
+
+.education .box-container .box h6 {
     color: var(--primary-color);
 }
 
@@ -392,25 +393,7 @@ section .button button:hover {
 
 
 
-/* .Education {
-    padding-top: 40px;
 
-    text-align: center;
-
-}
-
-.Education-heading {
-    text-align: center;
-    color: var(--primary-color);
-}
-
-.table {
-    width: 50%;
-}
-
-.table th {
-    height: 70px;
-} */
 
 
 
@@ -677,7 +660,7 @@ section .button button:hover {
 }
 
 
-/* Contact Me CSS */
+/* Contact Me CSS
 .contact {
     background: #f0f8ff;
 }
@@ -691,7 +674,81 @@ section .button button:hover {
     width: 80%;
     text-align: center;
     margin: auto;
+} */
+
+/* #contact */
+
+.contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.contact .row .content {
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+
+.contact .row form {
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .box {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #3333;
+    color: #fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+}
+
+.contact .row form .box::placeholder {
+    text-transform: capitalize;
+}
+
+.contact .row form .message {
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row .content .title {
+    text-transform: uppercase;
+    color:#272829;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #272829;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i {
+    padding-right: 1rem;
+    color: var(--primary-color);
+}
+
+.top {
+    position: fixed;
+    bottom: 7.5rem;
+    right: 2rem;
+    z-index: 100;
+    display: none;
+}
+
+
+
+
 
 /* Footer CSS */
 footer {
