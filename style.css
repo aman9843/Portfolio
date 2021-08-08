@@ -316,7 +316,7 @@ section .button button:hover {
 
 }
 
-.media-icons .fab:hover{
+.media-icons .fab:hover {
     color: #2EC866;
 }
 
@@ -327,7 +327,7 @@ section .button button:hover {
 }
 
 
-.iconify:hover{
+.iconify:hover {
     color: #2EC866;
 }
 
@@ -335,7 +335,64 @@ section .button button:hover {
 
 
 /* #Education */
-.Education {
+.education .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.education .box-container .box {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #272829;
+    position: relative;
+}
+
+.education .box-container .box span {
+    font-size: 1.3rem;
+    background:var(--primary-color);
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+
+.education .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--black-color) ;
+    padding-top: 1.5rem;
+}
+.education .box-container .box h6{
+    color: var(--primary-color);
+}
+
+.education .box-container .box p {
+    font-size: 1.4rem;
+    color: var(--black-color);
+    padding: 1rem 0;
+}
+
+.education .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--primary-color);
+}
+
+
+
+
+/* .Education {
     padding-top: 40px;
 
     text-align: center;
@@ -353,7 +410,7 @@ section .button button:hover {
 
 .table th {
     height: 70px;
-}
+} */
 
 
 
